@@ -21,7 +21,7 @@ const Page = ({
         <title>{titleText()}</title>
         <meta
           name='description'
-          content='I make software for oil and gas companies'
+          content='Locum Pharmacist / Aston University Graduate'
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
