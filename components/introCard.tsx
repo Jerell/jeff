@@ -15,7 +15,7 @@ const IntroCard = () => {
         <p>Qualified pharmacist since Aug 2022</p>
         <p>GpHC no. 2231084</p>
         <div className='mt-2'>
-          <p>+447570807718</p>
+          <a href='tel:+447570807718'>+447570807718</a>
           <a href='mailto:Ngcheukman15@gmail.com' className='block'>
             <span>Ngcheukman15@gmail.com</span>
           </a>
