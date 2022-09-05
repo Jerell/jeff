@@ -23,10 +23,6 @@ export default function Review() {
           <div className='max-w-prose w-full'>
             <section className='py-8 flex flex-col gap-4'>
               <IntroCard />
-              <p>
-                maybe a paragraph of information or something idk you can put
-                anything here u choose homie
-              </p>
             </section>
             <section className='mt-8'>
               <div className='my-2 text-center'>

@@ -9,17 +9,23 @@ const IntroCard = () => {
         <CircleImg />
       </div>
       <div className='right flex flex-col'>
-        <p>Jerell James</p>
-        <DisplayText>Software engineer</DisplayText>
-        <p>I make software for oil and gas companies.</p>
-        <p>
-          Take a look at my{' '}
-          <Link href='https://github.com/Jerell'>
-            <a>
-              <span>github</span>
-            </a>
-          </Link>
-        </p>
+        <p>Cheuk Man Ng</p>
+        <DisplayText>Locum Pharmacist</DisplayText>
+        <p>Aston University Graduate</p>
+        <p>Qualified pharmacist since Aug 2022</p>
+        <p>GpHC no. 2231084</p>
+        <div className='mt-2'>
+          <p>+447570807718</p>
+          <a href='mailto:Ngcheukman15@gmail.com' className='block'>
+            <span>Ngcheukman15@gmail.com</span>
+          </a>
+          <a
+            href='https://www.linkedin.com/in/cheuk-man-ng-9014821a4/'
+            className='block'
+          >
+            <span>Linkedin profile</span>
+          </a>
+        </div>
       </div>
     </div>
   );

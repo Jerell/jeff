@@ -8,7 +8,8 @@ export default function Form({ refresh }: { refresh: () => Promise<void> }) {
   const [rating, setRating] = useState<number>(-1);
   const [review, setReview] = useState<string>('');
   const [name, setName] = useState<string>('Anonymous');
-  const reviewPlaceholder = 'he was very gentle and kind and rubbed my tummy';
+  const reviewPlaceholder =
+    'Please give a review on my performance in your store, be as detailed as you would like but please do not breach patient confidentiality';
   const invalid = review.length === 0 || rating < 0;
 
   const [loading, setLoading] = useState<boolean>(false);
