@@ -13,7 +13,7 @@ const IntroCard = () => {
         <DisplayText>Locum Pharmacist</DisplayText>
         <p>Aston University Graduate</p>
         <p>Qualified pharmacist since Aug 2022</p>
-        <p>GpHC no. 2231084</p>
+        <p>GPhC no. 2231084</p>
         <div className='mt-2'>
           <a href='tel:+447570807718'>+447570807718</a>
           <a href='mailto:Ngcheukman15@gmail.com' className='block'>
