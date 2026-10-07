@@ -16,9 +16,9 @@ export default function ReviewDisplay({
 }) {
   const d = new Date(date.seconds * 1000);
   return (
-    <div className='border-t py-2 mb-2 text-right'>
+    <div className='border-t border-gray-200 py-2 mb-2 text-right'>
       <p className='text-j-dodger text-left'>{rating} / 5</p>
-      <p className='text-center text-gradient bg-gradient-to-r from-j-dodger to-j-blue text-j'>
+      <p className='text-center text-gradient bg-linear-to-r/srgb from-j-dodger to-j-blue text-j'>
         {review}
       </p>
       <p className='text-xs uppercase'>{company}</p>

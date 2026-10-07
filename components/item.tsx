@@ -14,7 +14,7 @@ const Item = ({
       } center`}
     >
       <div className='flex primary max-w-prose'>{children[0]}</div>
-      <div className='flex secondary flex-grow max-w-prose'>{children[1]}</div>
+      <div className='flex secondary grow max-w-prose'>{children[1]}</div>
     </div>
   );
 };
