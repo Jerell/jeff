@@ -26,9 +26,9 @@
     "eslint": "^8.57.1",
     "eslint-config-next": "15.5.21",
     "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-preset-env": "^7.0.1",
+    "postcss-preset-env": "^11.6.1",
     "prettier": "^2.5.1",
-    "tailwindcss": "^2.2.19",
+    "tailwindcss": "^4.3.3",
     "typescript": "^5.7.2"
   },
   "prettier": {
