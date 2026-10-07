@@ -15,7 +15,7 @@ export default function Select({
     <div className='text-sm'>
       <select
         name={label}
-        className='outline-none w-full p-0.5 text-j-blue'
+        className='outline-hidden w-full p-0.5 text-j-blue'
         onChange={(e) => handleChange(e)}
       >
         {options.map((o) => (
